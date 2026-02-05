@@ -5,3 +5,7 @@ url: "https://johnsara04.github.io"
 
 # Optional: choose a theme
 theme: minima
+
+# Tell GitHub this is a Jekyll site
+plugins:
+  - jekyll-relative-links
