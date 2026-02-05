@@ -1,0 +1,7 @@
+# Basic Jekyll config
+title: My Website
+description: A website about something cool
+url: "https://johnsara04.github.io"
+
+# Optional: choose a theme
+theme: minima
