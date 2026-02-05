@@ -9,7 +9,7 @@ layout: base
 
  <div class="col-md-6">
    
-    <img class="img-responsive" src="{{url_for('static',filename='img/Sarah_2.png')}}" alt="Profile Picture" width="80%" 
+    <img class="img-responsive" src="{{ '/img/filename.jpg' | relative_url }}" alt="Profile Picture" width="80%" 
     padding="20px" style="background-color:#030E61">
 </div>
 
@@ -43,7 +43,7 @@ layout: base
     <div class="row">        
          <div class="col-md-3">
                 <div class="card" style="width:100%;">
-                  <img src="{{url_for('static',filename='img/vgym2.png')}}" class="card-img-top" alt="...">
+                  <img src="{{ '/img/vgym2.png' | relative_url }}" class="card-img-top" alt="...">
                   <div class="card-body">
                 <p class="card-title">Biomechanics</p>
                       </div>
@@ -53,7 +53,7 @@ layout: base
              
          <div class="col-md-3">
                 <div class="card" style="width:100%;">
-                  <img src="{{url_for('static',filename='img/menstrual.png')}}" class="card-img-top" alt="...">
+                  <img src="{{ '/img/menstrual.png' | relative_url }}"  class="card-img-top" alt="...">
                   <div class="card-body">
                 <p class="card-title">Female Health</p>
                       </div>
@@ -64,7 +64,7 @@ layout: base
        
        <div class="col-md-3">      
         <div class="card" style="width:100%;">
-          <img src="{{url_for('static',filename='img/podoplanin.jpg')}}" class="card-img-top" alt="...">
+          <img src= "{{ '/img/podoplanin.jpg' | relative_url }}" class="card-img-top" alt="...">
           <div class="card-body">
         <p class="card-title">Immune Response</p>
               </div>
@@ -74,7 +74,7 @@ layout: base
     
      <div class="col-md-3">
          <div class="card" style="width:100%;">
-           <img src="{{url_for('static',filename='img/sfx2.png')}}" class="card-img-top" alt="...">
+           <img src="{{ '/img/sfx2.png' | relative_url }}"class="card-img-top" alt="...">
            <div class="card-body">
          <p class="card-title">Injury Prediction</p>
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a>-->
