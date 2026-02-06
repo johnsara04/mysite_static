@@ -9,3 +9,6 @@ theme: minima
 # Tell GitHub this is a Jekyll site
 plugins:
   - jekyll-relative-links
+
+baseurl: "/mysite_static"
+url: "https://johnsara04.github.io"
